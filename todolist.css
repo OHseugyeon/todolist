@@ -1,0 +1,74 @@
+.main{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /*새 아이템 추가시 위->아래 순으로 추가됨*/
+    margin: auto;
+}
+
+.container-box {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: solid 5px #6ea45e;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 385px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.0em;
+    background: white;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button{
+    width: 65px;
+    height: 30px;
+    font-size: 1.0em;
+    background-color: #6ea9ad;
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+}
+
+.todolist{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 40px 10px 0px;
+}
+ul{
+    list-style: none;
+}
+li{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.0em;
+}
+a{
+    float: right;
+    text-align: right;
+    color: red;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: #f1ee90;
+    position: left;
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+    color: white;
+    cursor: pointer;
+}
