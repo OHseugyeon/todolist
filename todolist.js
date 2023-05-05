@@ -8,7 +8,7 @@ function init(){
 
 function deleteOrCheck(e){
     if(e.target.className == 'delete')  
-        deleteToDo(e); // X 버튼을 누르면 목록에서 항목 삭제
+        deleteToDo(e); // X버튼을 누르면 목록에서 항목 삭제
     else {
         checkToDo(e); // 체크박스를 클릭한 경우 글씨 색을 연하게 바꿔준다.
     }
